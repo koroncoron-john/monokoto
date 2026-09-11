@@ -13,10 +13,13 @@
 | [データモデル](docs/03-data-model.md) | 主要データタイプ、関連、Option set、Privacy Rules |
 | [ワークフロー](docs/04-workflows.md) | 購入・予約・出品・認証・通知などの処理 |
 | [外部連携・セキュリティ・運用](docs/05-integrations-security-operations.md) | Stripe、メール、PDF、住所検索、設定、確認事項 |
+| [ページ別機能要件](docs/06-functional-requirements.md) | 全ページの対象者、前提、操作、結果、関連データ |
+| [Backend workflowリファレンス](docs/07-backend-workflow-reference.md) | 全45処理の入力、実行内容、更新先、公開・認証設定 |
+| [PM質問インデックス](docs/08-pm-question-index.md) | 質問テーマ別の参照先、状態定義、未確定事項 |
 
 ## 現行構成のスナップショット
 
-- Webページ: 31
+- Webページ: 32
 - Mobile view: 1
 - 再利用可能エレメント: 50
 - データタイプ: 25
@@ -39,4 +42,3 @@
 Bubbleの仕様変更と同じPull Requestで該当文書を更新してください。少なくとも、画面追加、フィールド変更、ステータス追加、決済・通知処理変更、Privacy Rules変更は文書更新の対象です。
 
 最終確認日: 2026-09-11
-
